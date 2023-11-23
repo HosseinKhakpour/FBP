@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1707D132-6438-406E-A297-716CB82409FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{574FCC8D-5E65-43F7-AB60-5C20A9CF4550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{06BEAF53-7004-4E29-A23F-54738A8294AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getway", "Getway", "{BBA7047B-3C09-4504-A980-AD989AE34C79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.API", "src\Services\Identity\Fara.Services.Identity.API\Fara.Services.Identity.API.csproj", "{5DC694D0-E0E4-41DC-B1EE-CA83E1F12985}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DC694D0-E0E4-41DC-B1EE-CA83E1F12985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DC694D0-E0E4-41DC-B1EE-CA83E1F12985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DC694D0-E0E4-41DC-B1EE-CA83E1F12985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DC694D0-E0E4-41DC-B1EE-CA83E1F12985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06BEAF53-7004-4E29-A23F-54738A8294AF} = {1707D132-6438-406E-A297-716CB82409FA}
+		{BBA7047B-3C09-4504-A980-AD989AE34C79} = {1707D132-6438-406E-A297-716CB82409FA}
+		{27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982} = {06BEAF53-7004-4E29-A23F-54738A8294AF}
+		{5DC694D0-E0E4-41DC-B1EE-CA83E1F12985} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60D57A4F-E23D-43B5-9845-6E304C1CD16A}
+	EndGlobalSection
+EndGlobal
