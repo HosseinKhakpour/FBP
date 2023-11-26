@@ -1,8 +1,8 @@
-﻿using DoubleCode.Application.Common.Interfaces;
-using DoubleCode.Domain.Entity.Permissions;
-using DoubleCode.Domain.Entity.User;
-using DoubleCode.Infrastructure.FluentConfigs.Users;
+﻿using DoubleCode.Domain.Entity.Permissions;
+using Fara.Services.Identity.Application.Common.Interfaces;
+using Fara.Services.Identity.Domain.Entity.Permissions;
 using Fara.Services.Identity.Domain.Entity.User;
+using Fara.Services.Identity.Infrastructure.FluentConfigs.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -38,9 +38,6 @@ public class ApplicationDbContext : IdentityDbContext<
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-
-        //modelBuilder.Entity<User>().HasQueryFilter(u => !u.IsDeleted);
-        //modelBuilder.Entity<Role>().HasQueryFilter(u => !u.IsDeleted);
 
         modelBuilder.ApplyConfiguration(new UserConfigs());
         modelBuilder.ApplyConfiguration(new UserRoleConfigs());

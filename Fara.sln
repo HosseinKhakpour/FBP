@@ -13,13 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Getway", "Getway", "{BBA704
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.Application", "..\src\Fara\Services\Identity\Fara.Services.Identity.Application\Fara.Services.Identity.Application.csproj", "{FDD5A264-004C-400F-95CF-56601A7FEA46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.API", "src\Services\Identity\Fara.Services.Identity.API\Fara.Services.Identity.API.csproj", "{5508EC8E-E407-49DC-BE46-FA1ACBEA4102}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.Domain", "..\src\Fara\Services\Identity\Fara.Services.Identity.Domain\Fara.Services.Identity.Domain.csproj", "{8C1F31F3-2D2C-42E2-BA9C-427E85B8E675}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.Application", "src\Services\Identity\Fara.Services.Identity.Application\Fara.Services.Identity.Application.csproj", "{3B2A9B63-FB9C-4516-805D-33D91A7494D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.Infrastructure", "..\src\Fara\Services\Identity\Fara.Services.Identity.Infrastructure\Fara.Services.Identity.Infrastructure.csproj", "{14E8FCF1-DAFB-439E-BA27-76EC82EAF9A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.Domain", "src\Services\Identity\Fara.Services.Identity.Domain\Fara.Services.Identity.Domain.csproj", "{E541EE89-C457-493C-96CD-8AF498E1AB5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.API", "..\src\Fara\Services\Identity\Fara.Services.Identity.API\Fara.Services.Identity.API.csproj", "{6449153F-4203-4829-9A14-48BABFE32DD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fara.Services.Identity.Infrastructure", "src\Services\Identity\Fara.Services.Identity.Infrastructure\Fara.Services.Identity.Infrastructure.csproj", "{85CF46E0-CE0A-4565-A293-56C4942A259C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,22 +27,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FDD5A264-004C-400F-95CF-56601A7FEA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDD5A264-004C-400F-95CF-56601A7FEA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDD5A264-004C-400F-95CF-56601A7FEA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDD5A264-004C-400F-95CF-56601A7FEA46}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C1F31F3-2D2C-42E2-BA9C-427E85B8E675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C1F31F3-2D2C-42E2-BA9C-427E85B8E675}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C1F31F3-2D2C-42E2-BA9C-427E85B8E675}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C1F31F3-2D2C-42E2-BA9C-427E85B8E675}.Release|Any CPU.Build.0 = Release|Any CPU
-		{14E8FCF1-DAFB-439E-BA27-76EC82EAF9A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{14E8FCF1-DAFB-439E-BA27-76EC82EAF9A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{14E8FCF1-DAFB-439E-BA27-76EC82EAF9A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{14E8FCF1-DAFB-439E-BA27-76EC82EAF9A4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6449153F-4203-4829-9A14-48BABFE32DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6449153F-4203-4829-9A14-48BABFE32DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6449153F-4203-4829-9A14-48BABFE32DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6449153F-4203-4829-9A14-48BABFE32DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5508EC8E-E407-49DC-BE46-FA1ACBEA4102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5508EC8E-E407-49DC-BE46-FA1ACBEA4102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5508EC8E-E407-49DC-BE46-FA1ACBEA4102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5508EC8E-E407-49DC-BE46-FA1ACBEA4102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2A9B63-FB9C-4516-805D-33D91A7494D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2A9B63-FB9C-4516-805D-33D91A7494D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2A9B63-FB9C-4516-805D-33D91A7494D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2A9B63-FB9C-4516-805D-33D91A7494D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E541EE89-C457-493C-96CD-8AF498E1AB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E541EE89-C457-493C-96CD-8AF498E1AB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E541EE89-C457-493C-96CD-8AF498E1AB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E541EE89-C457-493C-96CD-8AF498E1AB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CF46E0-CE0A-4565-A293-56C4942A259C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CF46E0-CE0A-4565-A293-56C4942A259C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CF46E0-CE0A-4565-A293-56C4942A259C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CF46E0-CE0A-4565-A293-56C4942A259C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,10 +51,10 @@ Global
 		{06BEAF53-7004-4E29-A23F-54738A8294AF} = {1707D132-6438-406E-A297-716CB82409FA}
 		{BBA7047B-3C09-4504-A980-AD989AE34C79} = {1707D132-6438-406E-A297-716CB82409FA}
 		{27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982} = {06BEAF53-7004-4E29-A23F-54738A8294AF}
-		{FDD5A264-004C-400F-95CF-56601A7FEA46} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
-		{8C1F31F3-2D2C-42E2-BA9C-427E85B8E675} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
-		{14E8FCF1-DAFB-439E-BA27-76EC82EAF9A4} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
-		{6449153F-4203-4829-9A14-48BABFE32DD8} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
+		{5508EC8E-E407-49DC-BE46-FA1ACBEA4102} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
+		{3B2A9B63-FB9C-4516-805D-33D91A7494D6} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
+		{E541EE89-C457-493C-96CD-8AF498E1AB5A} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
+		{85CF46E0-CE0A-4565-A293-56C4942A259C} = {27BDA1AE-9C9E-48A4-ACF6-E76C4B4FE982}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {60D57A4F-E23D-43B5-9845-6E304C1CD16A}

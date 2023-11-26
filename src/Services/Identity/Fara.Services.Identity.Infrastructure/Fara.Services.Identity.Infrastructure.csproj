@@ -7,6 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.14" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="7.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fara.Services.Identity.Application\Fara.Services.Identity.Application.csproj" />
     <ProjectReference Include="..\Fara.Services.Identity.Domain\Fara.Services.Identity.Domain.csproj" />
   </ItemGroup>
 
