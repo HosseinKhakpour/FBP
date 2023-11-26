@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace DoubleCode.Infrastructure.Persistence;
+namespace Fara.Services.Identity.Infrastructure.Persistence;
 
 public class ApplicationDbContext : IdentityDbContext<
                                     User,
